@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="App">
+      <UniqueIdentifier>{f8a90ad7-691d-4e6b-9ff5-9017110cf955}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tool">
+      <UniqueIdentifier>{b7b88c51-3ed4-461b-a3d9-97ac9301c874}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tool\BaseType">
+      <UniqueIdentifier>{2f15577d-b1fa-4407-bf82-fad1fb1c67e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tool\Encoding">
+      <UniqueIdentifier>{64061e79-75d3-4a8a-b391-b4a2cb63421c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tool\Buffer">
+      <UniqueIdentifier>{6a4d76bd-c2fe-4da2-bd46-93f8b182aaa6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tool\Common">
+      <UniqueIdentifier>{63a92a2c-d401-486a-8be6-e2ed7c786ec6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tool\DateTime">
+      <UniqueIdentifier>{fe2f842d-2a98-46b7-9a06-0a1ccebfb3a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tool\Directory">
+      <UniqueIdentifier>{dde3c09b-b1c1-4a59-a6ef-8c2f75d38921}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tool\DllLoader">
+      <UniqueIdentifier>{61b968b0-031b-42f9-af95-fc29dff57d8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tool\EventHandler">
+      <UniqueIdentifier>{93b74f96-bbb5-4bdb-92ca-fe92e223ffa3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tool\Eventor">
+      <UniqueIdentifier>{eee90543-32e2-4433-b3c0-28dc30d6a379}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tool\File">
+      <UniqueIdentifier>{7418135a-18fb-47e4-9df9-6845c6764f64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tool\Log">
+      <UniqueIdentifier>{c9662c0c-7a40-484c-bad0-03e396a456e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tool\Json">
+      <UniqueIdentifier>{1eaa39ce-2274-45bc-aaaa-cf11ec88ae6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tool\ModuleLoader">
+      <UniqueIdentifier>{cf1e932b-a98c-46d0-adbd-e0237f59ac87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tool\Player">
+      <UniqueIdentifier>{9692e6b3-73fc-4615-ad1f-7dd7a65b59b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tool\Reflect">
+      <UniqueIdentifier>{a0a2e727-36b4-402c-9a4e-107653850543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tool\Register">
+      <UniqueIdentifier>{ef464f74-d0d9-42d0-8485-2036d1ed18a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tool\SerialPort">
+      <UniqueIdentifier>{4e3b338f-c708-4476-b9ea-f33658f073ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tool\Socket">
+      <UniqueIdentifier>{51d097f8-d55c-4202-becc-cb2f0b69f9db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tool\Sql">
+      <UniqueIdentifier>{e903e4c1-f442-4d44-8f68-cfe8884a188b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tool\Thread">
+      <UniqueIdentifier>{e69d2492-422a-479f-8863-006a06b851da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tool\Timer">
+      <UniqueIdentifier>{b444a230-e850-48e9-b7fc-caccc79fffa8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tool\USB">
+      <UniqueIdentifier>{6ca35667-9fdb-438f-a0c8-6567915bc29c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="App\main.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="Tool\BaseType\Bool.cpp">
+      <Filter>Tool\BaseType</Filter>
+    </ClCompile>
+    <ClCompile Include="Tool\BaseType\Double.cpp">
+      <Filter>Tool\BaseType</Filter>
+    </ClCompile>
+    <ClCompile Include="Tool\BaseType\Float.cpp">
+      <Filter>Tool\BaseType</Filter>
+    </ClCompile>
+    <ClCompile Include="Tool\BaseType\Int.cpp">
+      <Filter>Tool\BaseType</Filter>
+    </ClCompile>
+    <ClCompile Include="Tool\BaseType\String.cpp">
+      <Filter>Tool\BaseType</Filter>
+    </ClCompile>
+    <ClCompile Include="Tool\Buffer\SharedMemory.cpp">
+      <Filter>Tool\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="Tool\DateTime\DateTime.cpp">
+      <Filter>Tool\DateTime</Filter>
+    </ClCompile>
+    <ClCompile Include="Tool\Directory\Directory.cpp">
+      <Filter>Tool\Directory</Filter>
+    </ClCompile>
+    <ClCompile Include="Tool\DllLoader\DllLoader.cpp">
+      <Filter>Tool\DllLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="Tool\EventHandler\EventHandler.cpp">
+      <Filter>Tool\EventHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="Tool\File\File.cpp">
+      <Filter>Tool\File</Filter>
+    </ClCompile>
+    <ClCompile Include="Tool\Log\Log.cpp">
+      <Filter>Tool\Log</Filter>
+    </ClCompile>
+    <ClCompile Include="Tool\Log\SystemLog.cpp">
+      <Filter>Tool\Log</Filter>
+    </ClCompile>
+    <ClCompile Include="Tool\Reflect\Reflect.cpp">
+      <Filter>Tool\Reflect</Filter>
+    </ClCompile>
+    <ClCompile Include="Tool\SerialPort\SerialPort.cpp">
+      <Filter>Tool\SerialPort</Filter>
+    </ClCompile>
+    <ClCompile Include="Tool\Socket\Socket.cpp">
+      <Filter>Tool\Socket</Filter>
+    </ClCompile>
+    <ClCompile Include="Tool\Socket\SocketClient.cpp">
+      <Filter>Tool\Socket</Filter>
+    </ClCompile>
+    <ClCompile Include="Tool\Socket\SocketServer.cpp">
+      <Filter>Tool\Socket</Filter>
+    </ClCompile>
+    <ClCompile Include="Tool\Encoding\Encode.cpp">
+      <Filter>Tool\Encoding</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Tool\BaseType\Bool.h">
+      <Filter>Tool\BaseType</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool\BaseType\Double.h">
+      <Filter>Tool\BaseType</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool\BaseType\Float.h">
+      <Filter>Tool\BaseType</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool\BaseType\Int.h">
+      <Filter>Tool\BaseType</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool\BaseType\String.h">
+      <Filter>Tool\BaseType</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool\Buffer\Array.h">
+      <Filter>Tool\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool\Buffer\CircleBuffer.h">
+      <Filter>Tool\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool\Buffer\DoubleList.h">
+      <Filter>Tool\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool\Buffer\Iterator.h">
+      <Filter>Tool\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool\Buffer\Queue.h">
+      <Filter>Tool\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool\Buffer\SharedMemory.h">
+      <Filter>Tool\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool\Buffer\SingleList.h">
+      <Filter>Tool\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool\Common\SystemType.h">
+      <Filter>Tool\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool\DateTime\DateTime.h">
+      <Filter>Tool\DateTime</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool\Directory\Directory.h">
+      <Filter>Tool\Directory</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool\DllLoader\DllLoader.h">
+      <Filter>Tool\DllLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool\EventHandler\EventArgs.h">
+      <Filter>Tool\EventHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool\EventHandler\EventHandler.h">
+      <Filter>Tool\EventHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool\EventHandler\IEventHandler.h">
+      <Filter>Tool\EventHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool\Eventor\EventBase.h">
+      <Filter>Tool\Eventor</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool\Eventor\IEvent.h">
+      <Filter>Tool\Eventor</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool\File\File.h">
+      <Filter>Tool\File</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool\Log\Log.h">
+      <Filter>Tool\Log</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool\Log\LogType.h">
+      <Filter>Tool\Log</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool\Log\SystemLog.h">
+      <Filter>Tool\Log</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool\ModuleLoader\ModuleLoader.h">
+      <Filter>Tool\ModuleLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool\Reflect\Reflect.h">
+      <Filter>Tool\Reflect</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool\SerialPort\PortType.h">
+      <Filter>Tool\SerialPort</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool\SerialPort\SerialPort.h">
+      <Filter>Tool\SerialPort</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool\Socket\Socket.h">
+      <Filter>Tool\Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool\Socket\SocketClient.h">
+      <Filter>Tool\Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool\Socket\SocketServer.h">
+      <Filter>Tool\Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool\Socket\SocketType.h">
+      <Filter>Tool\Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool\Encoding\Encode.h">
+      <Filter>Tool\Encoding</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
